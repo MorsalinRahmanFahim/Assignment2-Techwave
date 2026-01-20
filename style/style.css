@@ -20,9 +20,10 @@ body{
     font-size: 16px;
     padding:12px 16px;
     color: white;
-    width: max-content;
+    width: 180px;
     font-weight: 600;
     border-radius: 10000px;
+    width: max-content;
     border: 0;
     background:linear-gradient(47deg,#F7E93F,#FB09B4,#9100F8);
 }
@@ -124,9 +125,31 @@ nav ul a{
     background-color: transparent;
     font-weight: 600;
     border-radius: 10000px;
-    width: 180px;
+    width: max-content;
     border: 1px solid #00ff88;
 }
+.btn1:hover,
+.nav-btn:hover{
+    cursor: pointer;
+     background:linear-gradient(90deg,#7c11ff,#2784ad,#00D4FF);
+    
+}
+.video-card:hover,
+.grid1:hover,
+.grid2:hover,
+.grid3:hover{
+
+    cursor: pointer;
+     background:linear-gradient(47deg,#4339c5,#b6734d,#d322ff63);
+
+}
+.btn2:hover{
+    background-color:#88e9ff;
+    color: #00ff88;
+    border: none;
+    cursor: pointer;
+}
+
 .hero-data{
     justify-content: center;
     align-items: center;
@@ -269,11 +292,10 @@ nav ul a{
  /* feature section styles */
  
  .features{
-    padding: 0px 120px 120px 120px;
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 40px;
     margin: 0 auto;
  }
  .video-link{
@@ -287,6 +309,10 @@ nav ul a{
    width: 380px;
    background-color: #230E3D ;
  }
+ iframe {
+  border-radius: 20px 20px 0 0; /* Rounds only the top two corners */
+  border: none;
+}
  
  /* host section style  */
  .host{
@@ -496,6 +522,9 @@ nav h2{
   to {
     transform: rotate(360deg);
   }
+}
+.btn1{
+    width: max-content;
 }
 
 .Hero-middle{
